@@ -278,7 +278,9 @@ body{
 {
     width: 52%;
 }
-@media(max-width:768px){
+/* tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
     .crossbar-experience
     {
         margin: 0 26px 0 20px;
@@ -286,4 +288,24 @@ body{
         height: 2px;
         background-color: #000; 
     }
+    .text-detail-skill-text-right
+    {
+        font-size: 15px;
+    }
+    .text-detail-skill-text
+    {
+        font-size: 15px;
+    }
+    .show-info-detail-right-text
+    {
+        font-size: 15px;
+    }
+    .show-info-detail-text
+    {
+        font-size: 15px; 
+    }
+}
+/* mobile */
+@media (max-width:739px)
+{
 }
