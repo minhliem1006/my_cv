@@ -308,4 +308,196 @@ body{
 /* mobile */
 @media (max-width:739px)
 {
+    .cover-all
+    {
+        width: 300px;
+    }
+    .header-name
+    {
+        height: 130px;
+        width: 300px;
+    }
+    .short-profile-info
+    {
+        height: 130px;
+        width: 136px;
+    }
+    .cvo-profile-avatar
+    {
+        right: 0;
+    }
+    .cvo-block-content {
+        font-weight: 700;
+        font-family: Roboto,Arial,robotocondensed-bold,sans-serif;
+        font-size: 16px;
+        color: #ededed;
+        margin: 28px 12px 2px;
+        max-height: 40px;
+        text-transform: uppercase;
+        max-width: 100%;
+        line-height: 1.1;
+    }
+    .cvo-profile-title {
+        position: relative;
+        margin: auto;
+        width: 104%;
+        padding: 12px 0 0 12px;
+    }
+    .cvo-block-content__
+    {
+        font-size: 12px;
+    }
+    .row 
+    {
+        display: block;
+    }
+    .left
+    {
+        width: 300px;
+        height: 1100px;
+    }
+    .right
+    {
+        width: 300px; 
+        height:1400px;
+    }
+    .show-info-detail
+    {
+        margin: 12px 12px;
+    }
+    .show-info-detail-icon
+    {
+        font-size: 12px;
+    }
+    .show-info-detail-text
+    {
+        font-size: 12px;
+    }
+    .crossbar
+    {
+        margin: auto;
+    }
+    /*  */
+    .group-show-skill {
+        position: absolute;
+        background-color: transparent;
+        color: #fff;
+        width: 100%;
+        left: 0;
+        top: 350px;
+        padding: 10px 0;
+    }
+    .group-show-skill-header
+    {
+        font-size: 16px;
+    }
+    .group-show-skill-icon
+    {
+        font-size: 12px;
+    }
+    .group-show-skill-text
+    {
+        font-size: 12px;
+    }
+    .text-detail-skill-text
+    {
+        font-size: 12px;
+    }
+    .group-show-hobby {
+        position: absolute;
+        background-color: transparent;
+        color: #fff;
+        width: 100%;
+        left: 0;
+        top: 754px;
+        padding: 10px 0;
+    }
+    .group-show-more {
+        position: absolute;
+        background-color: transparent;
+        color: #fff;
+        width: 100%;
+        left: 0;
+        top: 850px;
+    }
+    .show-info-detail-wrap {
+        margin-left: 12px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .show-info-detail-mr {
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }   
+    .group-show-objective {
+        position: absolute;
+        background-color: transparent;
+        color: #000;
+        width: 100%;
+        left: 0;
+        top: 0px;
+        padding: 10px 0;
+    }
+    .show-info-detail-right {
+        margin-left: 12px;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .show-info-detail-right-text
+    {
+        font-size: 12px;
+    }
+    .group-show-education {
+        position: absolute;
+        background-color: transparent;
+        color: #000;
+        width: 100%;
+        left: 0;
+        top: 142px;
+        padding: 10px 0;
+    }
+    .group-show-experience {
+        position: absolute;
+        background-color: transparent;
+        color: #000;
+        width: 100%;
+        left: 0;
+        top: 256px;
+        padding: 10px 0;
+    }
+    .experience {
+        width: 106%;
+    }
+    .show-info-detail-right-food
+    {
+        width: 288px;
+    }
+    .text-detail-skill-text-right
+    {
+        font-family: robotocondensed-bold,Arial,sans-serif;
+        margin: 6px 0px;
+        font-size: 12px;
+    }
+    .crossbar-right
+    {
+        margin: 0 0 0 20px;
+        width: 100%;
+        height: 2px;
+        background-color: #000; 
+        
+    }
+    .crossbar-experience
+    {
+        margin: 0 0 0 20px;
+        width: 64%;
+        height: 2px;
+        background-color: #000;
+    }
 }
